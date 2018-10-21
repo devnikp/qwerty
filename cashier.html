@@ -1,0 +1,33 @@
+<div id="paper">
+  <h1>List item</h1>
+  <ul>
+    <li>eggs</li>
+    <li>milk</li>
+    <li>bread</li>
+  </ul>
+  <input type="number" id="discount" placeholder="discount">
+  <button onclick="disc()">enter</button>
+  <p>Discount :</p><p id=num>0</p>
+  <table>
+    <tbody id="entries">
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Total : Rp</th>
+        <th id="total">0.00</th>
+        <th>k</th>
+      </tr>
+      <tr>
+        <th>After discount : Rp</th>
+        <th id="after">0.00</th>
+        <th>k</th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<form id="entry">
+  <input id="newEntry" placeholder="enter">
+</form>
+  <input type="number" id="cstpay" placeholder="customer pay">
+  <button onclick="change()">pay</button>
+<p>Change :</p><p id=theChange>0</p>
